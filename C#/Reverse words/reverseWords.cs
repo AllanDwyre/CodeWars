@@ -11,7 +11,7 @@ public static class Kata
             char[] itemChar = words[i].ToCharArray(); // we reverse them
             Array.Reverse(itemChar);
             result += new string(itemChar);
-            if (i < words.Length - 1) // and add a space if its the
+            if (i < words.Length - 1) // and add a space if its the last word
             {
                 result += " ";
             }
